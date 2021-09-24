@@ -1,0 +1,20 @@
+body {
+    background: black;
+}
+h1{
+    color: #17D4FE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    font-size: 10rem;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+    color: #17D4FE;
+}
