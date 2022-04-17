@@ -1,0 +1,110 @@
+/* body */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #add8e6;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 2em;
+  color: #808080;
+}
+
+.search-input {
+  width: 50%;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  font-size: 1em;
+  color: #333;
+}
+/* search input placeholder */
+.search-input::-webkit-input-placeholder {
+  padding-left: 0.5em;
+  font-size: 18px;
+}
+/* section bg-white */
+.section-background-white {
+  width: 80%;
+  background-color: #fff;
+  padding: 1em;
+  border-radius: 5px;
+  margin: auto;
+}
+/* textarea */
+textarea {
+  width: 80%;
+  height: 200px;
+  padding: 0.5em;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  color: #333;
+  resize: none;
+}
+
+/* textarea placeholder */
+textarea::-webkit-input-placeholder {
+  font-size: 18px;
+}
+
+/* textarea focus */
+textarea:focus {
+  outline: none;
+}
+
+/* button group container*/
+.button-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.colored-button {
+  width: 10px;
+  padding: 0.5em;
+  border: none;
+  border-radius: 50px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #333;
+  cursor: pointer;
+}
+
+/* add button */
+.add-button {
+    width: 100%;
+    padding: 0.5em;
+    border: none;
+    border-radius: 50px;
+    font-size: 1em;
+    color: #fff;
+    background-color:  #4caf50;
+    cursor: pointer;
+    padding:  0.5em;
+}
+/* add button hover */
+.add-button:hover {
+    background-color: #333;
+}
+
+
