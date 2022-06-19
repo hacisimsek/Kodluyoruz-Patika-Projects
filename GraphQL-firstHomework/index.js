@@ -20,9 +20,8 @@ const typeDefs = gql`
 		to: String
 		location_id: ID
 		user_id: ID
-		#user
-		#location
-		user: User
+		#user: User
+		#location: Location
 	}
 
 	type Location {
@@ -67,9 +66,10 @@ const resolvers = {
 		posts: () => posts,
 		post: (_, { id }) => posts.find((post) => post.id == id),
 	},
-	Event: {
-		user: (event) => users.filter((user) => user.id == event.user_id),
-	},
+	// Event: {
+	// 	user: (event) => users.filter((user) => user.id == event.user_id),
+	// 	location: (event) => locations.filter((location) => location.id == event.location_id),
+	// },
 };
 
 const server = new ApolloServer({
