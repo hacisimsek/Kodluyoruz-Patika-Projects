@@ -1,0 +1,21 @@
+{
+	"name": "graphql-firsthomework",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"dev": "nodemon index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^2.0.16"
+	},
+	"dependencies": {
+		"apollo-server": "^3.9.0",
+		"apollo-server-core": "^3.9.0",
+		"graphql": "^16.5.0"
+	}
+}
