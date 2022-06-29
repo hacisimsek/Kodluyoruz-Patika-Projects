@@ -1,4 +1,4 @@
-#User üzerindeki Mutation testleri
+# User üzerindeki Mutation testleri
 
 mutation addUser {
 addUser(data: { username: "asdasd", email: "fsdljhgsdfg" }) {
