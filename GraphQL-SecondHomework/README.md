@@ -26,7 +26,7 @@ mutation deleteAllUsers {
 deleteAllUsers(interact: "i agree")
 }
 
-Event üzerindeki Mutation testleri
+# Event üzerindeki Mutation testleri
 
 mutation addEvent {
 addEvent(data: { title:"dskjfhksfjhg" }) {
@@ -51,7 +51,7 @@ mutation deleteAllEvents {
 deleteAllEvents(interact: "i agree")
 }
 
-Location üzerindeki Mutation testleri
+# Location üzerindeki Mutation testleri
 
 mutation addLocation {
 addLocation(data: { name:"dskjfhksfjhg" }) {
@@ -76,7 +76,7 @@ mutation deleteAllLocations {
 deleteAllLocations(interact: "i agree")
 }
 
-Participant üzerindeki Mutation testleri
+# Participant üzerindeki Mutation testleri
 
 mutation addParticipant {
 addParticipant(data: { user_id:"3",event_id:"3" }) {
